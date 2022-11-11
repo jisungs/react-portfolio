@@ -3,13 +3,15 @@ import './index.scss';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faLinkedin,faGithub,faYoutube,faSkype, } from '@fortawesome/free-brands-svg-icons';
+
 import { faHome, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className="logo" to ='/'>
             <img src={LogoS} alt="logo"/>
-            <img clasName="sub-logo" src={LogoSubtitle} alt="slobodan"/>
+            <img className="sub-logo" src={LogoSubtitle} alt="slobodan"/>
         </Link>
 
     <nav>
@@ -26,10 +28,25 @@ const Sidebar = () => (
 
     <ul>
         <li>
-
-
+            <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/haekyeomkim/">
+                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            </a>
         </li>
-
+        <li>
+            <a target="_blank" rel='noreferrer' href="https://github.com/jisungs">
+                <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/haekyeomkim/">
+                <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/haekyeomkim/">
+                <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+            </a>
+        </li>
     </ul>
 
 
