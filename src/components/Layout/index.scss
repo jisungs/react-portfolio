@@ -41,17 +41,17 @@
   .about-page{
     .text-zone{
       position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
 
     h1 {
       font-size: 53px;
-      font-family: 'Cooletica';
+      font-family: 'Coolvetica';
       color: #ffd700;
       font-weight: 400;
       margin-top: 0;
@@ -62,7 +62,7 @@
       &::before{
         content:'<h1>';
         font-family: 'La Belle Aurore';
-        font-size: 10px;
+        font-size: 18px;
         position:absolute;
         margin-top: -10px;
         left: -10px;
@@ -84,7 +84,7 @@
     }
 
     p {
-      font-style: 13px;
+      font-style: 15px;
       color:#fff;
       font-weight: 300;
       font-family: sans-serif;
